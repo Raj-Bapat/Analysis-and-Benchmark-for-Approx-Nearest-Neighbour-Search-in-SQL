@@ -1,0 +1,10 @@
+{
+    "project_id": "hardy-device-327220",
+    "instance_name": "test3",
+    "user_name": "hybrid-SQL-BM",
+    "password": "aearghajeryfafeu",
+    "database_name": "hybrid-SQL-BM",
+    "machine_type": "db-perf-optimized-N-32",
+    "postgress_password": "agrwagefjaherv",
+    "ip_address": "34.68.19.153"
+}

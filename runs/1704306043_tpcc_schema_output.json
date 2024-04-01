@@ -1,0 +1,16 @@
+{
+    "config": {
+        "project_id": "hardy-device-327220",
+        "instance_name": "test5",
+        "user_name": "hybrid-SQL-BM",
+        "password": "pass",
+        "database_name": "hybrid-SQL-BM",
+        "machine_type": "db-perf-optimized-N-32",
+        "postgress_password": "pass",
+        "ip_address": "35.222.111.50"
+    },
+    "num_warehouses": "2",
+    "num_virtual_users": "1",
+    "loading_time": "271.52924489974976",
+    "size": "305922048"
+}

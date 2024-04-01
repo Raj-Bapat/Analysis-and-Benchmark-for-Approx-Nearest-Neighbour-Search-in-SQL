@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/rbapat/hybrid-SQL-BM/src/create-instance.py", line 75, in <module>
+    operation = sql_service.instances().insert(project=project_id, body=instance_body).execute()
+  File "/home/rbapat/.local/lib/python3.10/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/rbapat/.local/lib/python3.10/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 400 when requesting https://sqladmin.googleapis.com/v1/projects/hardy-device-327220/instances?alt=json returned "Invalid request: Invalid Tier (postgres) for (ENTERPRISE_PLUS) Edition.". Details: "[{'message': 'Invalid request: Invalid Tier (postgres) for (ENTERPRISE_PLUS) Edition.', 'domain': 'global', 'reason': 'invalid'}]">

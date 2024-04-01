@@ -1,0 +1,273 @@
+./hammerdbcli <<.
+dbset db pg
+dbset bm TPC-C
+diset tpcc pg_superuser postgres
+diset tpcc pg_superuserpass aekaeoraeht
+diset connection pg_host 34.31.226.71
+diset tpcc pg_count_ware 1
+diset tpcc pg_num_vu 1
+buildschema
+quit
+.
+
+Output:
+HammerDB CLI v4.9
+Copyright (C) 2003-2023 Steve Shaw
+Type "help" for a list of commands
+Initialized Jobs on-disk database /tmp/hammer.DB using existing tables (1,056,768 KB)
+
+Database set to PostgreSQL
+
+
+Benchmark set to TPC-C for PostgreSQL
+
+
+Value postgres for tpcc:pg_superuser is the same as existing value postgres, no change made
+
+
+Value aekaeoraeht for tpcc:pg_superuserpass is the same as existing value aekaeoraeht, no change made
+
+
+Changed connection:pg_host from 35.232.40.127 to 34.31.226.71 for PostgreSQL
+
+
+Changed tpcc:pg_count_ware from 100 to 1 for PostgreSQL
+
+
+Changed tpcc:pg_num_vu from 10 to 1 for PostgreSQL
+
+
+Script cleared
+
+Building 1 Warehouses(s) with 1 Virtual User
+Ready to create a 1 Warehouse PostgreSQL TPROC-C schema
+in host 34.31.226.71:5432 sslmode PREFER under user TPCC in database TPCC?
+
+Enter yes or no: replied yes
+
+Vuser 1 created - WAIT IDLE
+
+Vuser 1:RUNNING
+
+Vuser 1:CREATING TPCC SCHEMA
+
+Vuser 1:CREATING DATABASE tpcc under OWNER tpcc
+
+Vuser 1:Using existing User tpcc for Schema build
+
+Vuser 1:CREATING TPCC TABLES
+
+Vuser 1:Loading Item
+
+Vuser 1:Loading Items - 10000
+
+Vuser 1:Loading Items - 20000
+
+Vuser 1:Loading Items - 30000
+
+Vuser 1:Loading Items - 40000
+
+Vuser 1:Loading Items - 50000
+
+Vuser 1:Loading Items - 60000
+
+Vuser 1:Loading Items - 70000
+
+Vuser 1:Loading Items - 80000
+
+Vuser 1:Loading Items - 90000
+
+Vuser 1:Loading Items - 100000
+
+Vuser 1:Item done
+
+Vuser 1:Start:Sun Mar 31 18:38:39 PDT 2024
+
+Vuser 1:Loading Warehouse
+
+Vuser 1:Loading Stock Wid=1
+
+Vuser 1:Loading Stock - 20000
+
+Vuser 1:Loading Stock - 40000
+
+Vuser 1:Loading Stock - 60000
+
+Vuser 1:Loading Stock - 80000
+
+Vuser 1:Loading Stock - 100000
+
+Vuser 1:Stock done
+
+Vuser 1:Loading District
+
+Vuser 1:District done
+
+Vuser 1:Loading Customer for DID=1 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Customer for DID=2 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Customer for DID=3 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Customer for DID=4 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Customer for DID=5 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Customer for DID=6 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Customer for DID=7 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Customer for DID=8 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Customer for DID=9 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Customer for DID=10 WID=1
+
+Vuser 1:Customer Done
+
+Vuser 1:Loading Orders for D=1 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:Loading Orders for D=2 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:Loading Orders for D=3 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:Loading Orders for D=4 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:Loading Orders for D=5 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:Loading Orders for D=6 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:Loading Orders for D=7 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:Loading Orders for D=8 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:Loading Orders for D=9 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:Loading Orders for D=10 W=1
+
+Vuser 1:...1000
+
+Vuser 1:...2000
+
+Vuser 1:...3000
+
+Vuser 1:Orders Done
+
+Vuser 1:End:Sun Mar 31 18:40:28 PDT 2024
+
+Vuser 1:CREATING TPCC INDEXES
+
+Vuser 1:CREATING TPCC FUNCTIONS
+
+Vuser 1:GATHERING SCHEMA STATISTICS
+
+Vuser 1:TPCC SCHEMA COMPLETE
+
+Vuser 1:FINISHED SUCCESS
+
+ALL VIRTUAL USERS COMPLETE
+
+[2K
+
+hammerdb>
+Schema Build jobid=660A101B614F03E273739363
+
+Shutting down HammerDB CLI
+
+size: 158597120
+
+time elapsed: 116.1505274772644 seconds
+
+changed password
+created pgvector extension
+JSON data written to <_io.TextIOWrapper name='../runs/../runs/1711934271_tpcc_schema_output.json' mode='w' encoding='UTF-8'>
