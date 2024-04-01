@@ -1,8 +1,0 @@
-Output:
-Yes
-
-Yes
-
-961000000
-JSON data written to <_io.TextIOWrapper name='../runs/../runs/1709931338_tpccv_schema_output.json' mode='w' encoding='UTF-8'>
-961000
