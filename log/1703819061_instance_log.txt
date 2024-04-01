@@ -1,7 +1,0 @@
-Creating instance operation: {'kind': 'sql#operation', 'targetLink': 'https://sqladmin.googleapis.com/v1/projects/hardy-device-327220/instances/test5', 'status': 'PENDING', 'user': 'hybrid-sql-bn-service-account@hardy-device-327220.iam.gserviceaccount.com', 'insertTime': '2023-12-29T03:04:23.290Z', 'operationType': 'CREATE', 'name': '8daed7ba-d470-47ce-ba1b-617b00000032', 'targetId': 'test5', 'selfLink': 'https://sqladmin.googleapis.com/v1/projects/hardy-device-327220/operations/8daed7ba-d470-47ce-ba1b-617b00000032', 'targetProject': 'hardy-device-327220'}
-waiting...
-
-Traceback (most recent call last):
-  File "/home/rbapat/hybrid-SQL-BM/src/create-instance.py", line 80, in <module>
-    time.sleep(60)
-KeyboardInterrupt
